@@ -1,0 +1,166 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "33b37396-f13c-40f9-a92a-c1d0749f6d51")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 95.25 90.17) (xy 102.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5ff62b-6089-4228-8f48-b7e0ea33faec")
+	)
+	(wire
+		(pts
+			(xy 95.25 87.63) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b14124-1a60-4165-acf5-3fd34c2c8e79")
+	)
+	(sheet
+		(at 66.04 72.39)
+		(size 29.21 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0736fb04-a30a-4da9-bf8b-254c5aaebd57")
+		(property "Sheetname" "main"
+			(at 66.04 71.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 66.04 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 95.25 90.17 0)
+			(uuid "11a20fab-fba0-4765-9efe-23b8955cd836")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 95.25 87.63 0)
+			(uuid "53fa4bb9-4aaa-460b-8c99-5a0ed1142bea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SERVO_NODE"
+				(path "/33b37396-f13c-40f9-a92a-c1d0749f6d51"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 72.39)
+		(size 24.13 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "554beaef-8371-44ae-bc2b-eb3f62fde6e3")
+		(property "Sheetname" "POWER"
+			(at 102.87 71.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 102.87 104.3436 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" input
+			(at 102.87 90.17 180)
+			(uuid "7b295595-992a-437c-9786-b7232328f93b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" input
+			(at 102.87 87.63 180)
+			(uuid "88a15d67-76da-4a8b-a7fa-10789e189874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SERVO_NODE"
+				(path "/33b37396-f13c-40f9-a92a-c1d0749f6d51"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
